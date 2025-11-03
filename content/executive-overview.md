@@ -161,9 +161,9 @@ Mechanistic ambiguity is not a significant roadblock for us. Using closed-loop f
 We are actively working to replicate these studies with field parameters that will be directly translatable to working in human tissues in the body. This leads to my closing comments on what we see as our most promising benchhead market. 
 
 Recapping what we know:
-Cone proved bioelectricity controls proliferation
-Novocure applies this to slow cancer growth via fields, likely altering cancer’s membrane potential 
-Levin shows bioelectricity can robustly control differentiation and dedifferentiation
+- Cone proved bioelectricity controls proliferation
+- Novocure applies this to slow cancer growth via fields, likely altering cancer’s membrane potential 
+- Levin shows bioelectricity can robustly control differentiation and dedifferentiation
 
 All of these are findings that if exploited via fields could be directly applied to the thymus to create massive value. 
 
