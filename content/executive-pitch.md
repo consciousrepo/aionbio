@@ -1,9 +1,9 @@
 ---
-title: "Executive Summary"
+title: "Executive Pitch"
 date: 2025-10-29
 draft: false
 description: "We are developing closed-loop systems to remotely read and write bioelectric states."
-slug: "executive-summary"
+slug: "executive-pitch"
 showDate: false
 showAuthor: false
 showReadingTime: false
