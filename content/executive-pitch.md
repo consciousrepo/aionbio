@@ -10,6 +10,9 @@ showReadingTime: false
 showEdit: false
 robots: "noindex, nofollow"
 ---
+
+![AION Logo](/img/AION.png)
+
 ---
 
 *AION builds closed-loop hardware to read and write bioelectric states in deep tissue using electromagnetic and acoustic fields. This platform harnesses bioelectricity as a tool for cell reprogramming in longevity.*  
