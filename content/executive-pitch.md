@@ -1,9 +1,9 @@
 ---
-title: "Executive Pitch"
+title: "Executive Summary"
 date: 2025-10-29
 draft: false
 description: "We are developing closed-loop systems to remotely read and write bioelectric states."
-slug: "executive-pitch"
+slug: "executive-summary"
 showDate: false
 showAuthor: false
 showReadingTime: false
@@ -23,7 +23,7 @@ robots: "noindex, nofollow"
 - *Enables non-invasive devices orders of magnitude more precise in space and time than drugs or gene therapies.*  
 - *Unlocks bioelectric algorithms for controlling proliferation, differentiation, and regeneration infeasible with chemistry.*
 
-*This executive pitch offers an early view of our platform and vision.* 
+*This executive summary offers an early view of our platform and vision.* 
 
 -- *Benjamin and RJ*
 
