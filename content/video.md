@@ -14,7 +14,7 @@ robots: "noindex, nofollow"
 We are developing closed-loop systems to remotely read and write bioelectric states.
 {{< /lead >}}
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HR614g1jT4k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+{{< youtube id="HR614g1jT4k" >}}
 
 Learn more by reading our [Whitepaper](https://www.aion.bio/aion.pdf).
 
