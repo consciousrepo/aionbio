@@ -1,6 +1,6 @@
 ---
 title: "SPV MEMO"
-date: 2025-10-21
+date: 2025-11-2
 draft: false
 description: "We are developing closed-loop systems to remotely read and write bioelectric states."
 slug: "spv-memo"
