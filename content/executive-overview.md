@@ -31,7 +31,7 @@ robots: "noindex, nofollow"
 
 ## TL;DR
 - **Cell reprogramming (turning any cell back into a stem cell) could reverse aging**, but molecular approaches face impossible search spaces. Billions are spent screening cocktails, yet the combination space is larger than what can be tested in a lifetime.
-- **Even if perfect molecular cocktails existed, delivery is unsolvable.** Different tissues reprogram at different rates, so systemic delivery causes liver failure before neurons benefit
+- **Even if perfect molecular cocktails existed, delivery is a major challenge.** Different tissues reprogram at different rates, so systemic delivery causes liver failure before neurons benefit.
 - **Bioelectricity offers precise spatiotemporal control.** By reading and writing electrical states in deep tissue, we can target specific organs with sub-centimeter precision and dynamic timing.
 - **The thymus is our beachhead ($80B oncology market).** FDA endpoints are organ size and T-cell counts, our approach addresses the core problem (immune decline) with measurable control.
 

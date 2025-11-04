@@ -11,6 +11,6 @@ Aion (Greek: Αἰών): perpetual, unbound, eternal time.
 
 We are developing closed-loop systems to remotely read and write bioelectric states in deep tissue through external electromagnetic and acoustic fields. 
 
-[Learn More.]({{< relref "executive-overview.md" >}})
+[Executive Overview]({{< relref "executive-overview.md" >}})
 
 
