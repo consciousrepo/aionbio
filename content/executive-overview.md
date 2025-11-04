@@ -82,7 +82,7 @@ For example, a fibroblast, a connective tissue cell, has a resting or average me
 
 ![skin cells and neurons calcium imaging](/img/skin-neurons.gif)
 
-In looking at the membrane potential of a cell, it is sort of like looking at the temperature of a room. Because it is very hard to image all of the underlying thermodynamic reactions in air that might give rise to, say, 70 degrees F, we can measure this single metric using simpler tools to infer underlying behaviors as much as is required to create control systems. 
+In looking at the membrane potential of a cell, it is sort of like looking at the temperature of a room. Because it is very hard to image all of the underlying thermodynamics in air that might give rise to, say, 70 degrees F, we can measure this single metric using simpler tools to infer underlying behaviors as much as is required to create control systems. 
 
 In the same vein, because it is very hard to see all the underlying ionic movements that give rise to a membrane potential of 70mV on a cell, we can look at just this to infer those movements well enough to create our control systems. 
 
