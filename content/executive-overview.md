@@ -20,8 +20,8 @@ robots: "noindex, nofollow"
 *What does this paradigm mean practically?* 
 
 - *Extends cell reprogramming beyond molecular limits*.  
-- *Enables non-invasive devices orders of magnitude more precise in space and time than drugs or gene therapies.*  
-- *Unlocks bioelectric algorithms for controlling proliferation, differentiation, and regeneration infeasible with chemistry.*
+- *Enables non-invasive devices to be orders of magnitude more precise in space and time than drugs or gene therapies.*  
+- *Unlocks bioelectric algorithms for controlling proliferation, differentiation, and regeneration that are infeasible with chemistry.*
 
 *This executive summary offers an early view of our platform and vision.* 
 
@@ -190,7 +190,7 @@ In realizing this vision, we will have crossed most of the unknown territory req
 _Med-Pod Concept from Elysium (2013)_
 
 ---
-_Thank you Sean Thiessen, Eric Ward & Justin Mares for feedback on this write-up._
+_Thank you Sean Thiessen, Eric Ward, Stephen Matic & Justin Mares for feedback on this write-up._
 
 ##
 
