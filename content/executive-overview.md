@@ -31,23 +31,22 @@ robots: "noindex, nofollow"
 
 We are fundamentally changing the way people approach intervening biology. Our big-if-true is that if we're right, and that biology can be more effectively controlled with physics than via our understanding of molecular pathways, then we can use non-invasive techniques in order to bring about desired changes in our systems of interest, with systems of interest being various disease states that come about with age, and then eventually, aging itself.
 
-How do we get there? But first, how did *we* get here? 
+How do we get there? But first, how did we get here? 
 
-Like many, I was enamored by the discovery that we could reprogram cells from a somatic or put more simply, differentiated state, and convert them back into a stem cell. In 2006, Yamanaka was researching just this when he discovered that by increasing the concentration of 4 special proteins inside the cell, now referred to as Yamanaka factors, that you could turn any cell type in the body back into a stem cell.[^1] This was a very big deal at the time, because up til this point, the only place to get stem cells was from embryos and other ethically debatable outlets. 
+Like many, I was enamored by the discovery that we could reprogram cells from a somatic (differentiated) state, and convert them back into a stem cell. In 2006, Yamanaka was researching this when he discovered that by increasing the concentration of four special proteins inside the cell, now referred to as Yamanaka factors, you could turn any cell type in the body back into a stem cell.[^1] This was groundbreaking at the time, because up until this point, the only places to get stem cells were from embryos and other ethically debatable outlets. 
 
-To those with an interest in longevity, it was also a proof of concept that insofar as we define age at the level of an individual cell, that we could reverse the aged state of a cell and turn the clock back to a more youthful phenotype. We have been able to reprogram cells of various types into stem cells for nearly 20 years now. What progress have we made and what are the barriers standing in our way? 
+To those with an interest in longevity, Yamanaka’s discovery was also a proof of concept that, insofar as we define age at the level of an individual cell, that we could reverse it. We have been able to reprogram cells of various types into stem cells for nearly 20 years now. What progress have we made towards translating this for aging and what are the barriers standing in our way? 
 
-There are effectively 3 problems to translating this approach to something that would work to bring about an aging reversal outcome in the body:
-
-1) Efficiency: cell reprogramming is both slow, taking weeks to occur but also something that only works in a very small number of intervened upon cells.
+There are effectively three problems in translating this approach to something that would bring about an aging reversal outcome in the body:
+1) Efficiency: cell reprogramming is slow (taking weeks) and succeeds in only a small fraction of treated cells.
 2) Precision: We do not want to turn you into a glob of stem cells, we want to do this partially. 
-3) Timing and delivery: All tissues reprogram at different rates. To prevent organ failure in one system, one needs to have spatio-temporal control over delivery. 
+3) Timing and delivery: Since tissues reprogram at different rates, preventing organ failure requires precise control over where and when reprogramming occurs.
 
 Billions of dollars are pouring into this space, funding longevity companies to identify a strategy to translate this finding to a therapy that would lead to a regenerative outcome in humans. Most of these players are still working on problems one and two without having figured out how they will even address three. 
 
-So with all this investment, what has been the progress after 20 years of work? To answer, let me explain the state of the art. The thinking is that of the multitude of possible protein factor combinations that could lead to a reprogramming outcome, there is a perfect cocktail out there to be found through high throughput screening that will yield a higher stem cell output in experiments. Read any [update from NewLimit](https://blog.newlimit.com/p/july-august-2025-progress-update) and this thinking is put clearly on display. 
+So with all this investment, what has been the progress after 20 years of work? To answer, let me explain the state of the art. The thinking is that, of the multitude of possible protein factor combinations that could lead to a reprogramming outcome, there is a perfect cocktail out there to be found that will yield a higher stem cell output in experiments. Read any [update from NewLimit](https://blog.newlimit.com/p/july-august-2025-progress-update) and this thinking is put clearly on display. 
 
-In recent years, after a seminal paper from a lab in China that managed to replicate, folks began exploring pure chemical approaches as well, as it was shown that a series of 4 cocktails containing 27 different molecules over weeks were also able to induce stem cells in culture.[^2] This led many to double down on the idea that high throughput screening was the way, and that somewhere out there in chemical space is a protocol that will lead to an ideal, high stem cell yield reprogramming outcome and furthermore that there may eventually be a drug or series of drugs to be taken to reverse aging. 
+In recent years, following a seminal Chinese study, researchers began exploring pure chemical approaches. The original group demonstrated that four sequential cocktails containing 27 total molecules could induce stem cells in culture over several weeks.[^2] This led many to double down on the idea that high throughput screening was the way, and that somewhere out there in chemical space is a protocol that will lead to an ideal, high stem cell yield reprogramming outcome, and furthermore, that there may eventually be a drug or series of drugs to be taken to reverse aging. 
 
 Billions have been spent pursuing these routes with the primary metric of success being how many tens of thousands of inputs have been screened in what period of time, indicating progress in churning through this space. 
 
@@ -59,25 +58,25 @@ Assume as an overestimation that labs screen 100,000 inputs a year. Over 20 year
 
 On the flip side, for a cocktail of just 4 chemicals, the possible combinations number over 40 sextillion. That's a 4 followed by 22 zeros. For mixes of 7 or 10, the numbers explode to levels like 10^41 or 10^53, way beyond what we can count in a lifetime. 
 
-For simplicity assume again companies screen maybe 100,000 compounds a year. Over 20 years, that's about 2 million tests. For that basic 4-chemical case, they've covered a fraction so tiny it's like checking one atom in the entire mass of Earth. For bigger mixes, consider the 27 chemicals used in the cocktails above, it's basically zero. Brute-force testing can't touch this huge space, no matter the billions spent. Real progress needs to be driven by a better idea. That is where we come in. 
+For simplicity, assume again companies screen 100,000 compounds a year. Over 20 years, that's about 2 million tests. For that basic 4-chemical case, they've covered a fraction so tiny it's like checking one atom in the entire mass of Earth. For bigger mixes, consider the 27 chemicals used in the cocktails above, it's basically zero. Brute-force testing can't touch this huge space, no matter the billions spent. Real progress needs to be driven by a better idea. That is where we come in. 
 
-So, here we see the limits of current approaches as it pertains to problem 1. What about problems 2 and 3? These are best explained at the same time. 
+So, here we see the limits of current approaches as it pertains to problem one. What about problems two and three? These are best explained at the same time. 
 
-The most successful partial reprogramming study to date was done in 2016 by the Ocampo lab.[^3] What they did was they genetically edited some mice at the embryonic stage in order to have an on-off switch that would allow them to be fed a drug called doxycycline(dox) that would trigger them to express the Yamanaka factors on command. The most successful protocol featured a 2 days on, 5 days off schedule and this led to a 67% median lifespan extension in progeroid mice (from 18 to 30 weeks).
+The most successful partial reprogramming study to date was done in 2016 by the Ocampo lab.[^3] They genetically edited mice at the embryonic stage in order to create an on-off switch in the mice that would respond to a drug called doxycycline(dox); exposure to the drug would trigger the mice to express the Yamanaka factors on command. The most successful protocol featured a 2 days on, 5 days off schedule, and this led to a 67% median lifespan extension in progeroid mice (from 18 to 30 weeks).
 
-The problem is that this gene circuit was all or nothing for every tissue in the body, and different cell types reprogram at different rates. As far as organ systems are concerned, the liver reprograms the fastest, then the pancreas, then the kidney and so on with cells like neurons and bones reprogramming the slowest. So- when persistently expressing these reprogramming factors, what will happen is the liver may reprogram to a point where some liver cells start to become stem cells before cells like neurons start to see benefit at all, until eventually you get liver failure. 
+The problem is that this gene circuit was all or nothing for every tissue in the body, and different cell types reprogram at different rates. As far as organ systems are concerned, the liver reprograms the fastest, then the pancreas, then the kidney and so on with cells like neurons and bones reprogramming the slowest. When persistently expressing these reprogramming factors, the liver may reprogram to a point where some liver cells start to become stem cells before cells like neurons start to see benefit at all, until eventually you get liver failure. 
 
 There are 2 takeaways here:
 1) This approach only works by editing the embryo at birth to have this special circuit. Sorry everyone already alive! and
 2) In order to scale this to something that works in every tissue type, much, much more complex gene circuit engineering would need to be figured out so that every different tissue type in the body has this on-off switch to be triggered by a different benign chemical. 
 
-Now set gene editing aside. In the event a perfect set of compounds that could reprogram cells partially was found, the same problem would occur because when consuming a drug orally, it will first go the the liver where it will be processed before diffusing to the rest of the body, leading to the same core issue, fast reprogramming tissue fails before others begin to see benefits. Not to mention the ability for the drug to cross the blood brain barrier to reprogram neurons at all and other issues like this for hard-to-reach cells in the body. 
+Now set gene editing aside. In the event a perfect set of compounds that could reprogram cells partially was found, the same problem would occur because when consuming a drug orally, it will first go the the liver where it will be processed before diffusing to the rest of the body, leading to the same core issue: fast reprogramming tissue fails before others begin to see benefits. Not to mention the ability for the drug to cross the blood brain barrier to reprogram neurons at all and other issues like this for hard-to-reach cells in the body. 
 
 Enough talk about problems. 
 
 My point in communicating this background is to make the point clear that achieving control over timing and delivery would be a paradigm-shifting breakthrough. At AION, we are 100% convinced that bioelectricity is the key to unlocking this. 
 
-From here on out when I say 'bioelectricity', what I mean by this is changes in the underlying concentrations of ions like sodium(Na+), potassium(K+), calcium(Ca+) among others, but these 3 make up the majority of the charge-carrying ions in the body that affect cellular membrane potential. As these ions move in and out of cells, this changes the voltage of the cell itself in a more positively or negatively charged direction. 
+When I say 'bioelectricity,' I'm referring to changes in the concentrations of ions like sodium (Na+), potassium (K+), and calcium (Ca2+). These three ions carry most of the electrical charge that determines cellular membrane potential. As these ions move in and out of cells, this changes the voltage of the cell itself in a more positively or negatively charged direction. 
 
 For example, a fibroblast, a type of skin cell, has a resting or average membrane potential of ~40 millivolts(mV), but this membrane potential will shift as much as +/- 20mV over the course of minutes to hours. If you have a basic understanding of how neurons work, use this as a jumping-off point. All cells in your body work the same way that neurons do, just on much slower timescales, firing electrical signals carried via these charged ions that allow the cells to communicate and coordinate towards shared goals. 
 
@@ -89,13 +88,13 @@ In the same vein, because it is very hard to see all the underlying ionic moveme
 
 So why are we convinced that by changing the bioelectricity at all that we can achieve highly effective control of cell states? 
 
-Starting with some historical examples from Clarence Cone who uncovered the fundamental role bioelectricity plays in the cell cycle, here are some things we already know that we can do with bioelectricity:
+Starting with some historical examples from Clarence Cone, who uncovered the fundamental role bioelectricity plays in the cell cycle, here are some things we already know we can do with bioelectricity:
 - Hyperpolarizing (more negative) halts division[^4] [^5]
-- Depolarizing (less negative) triggers it in mature cells[^6]
+- Depolarizing (less negative) triggers division in mature cells[^6]
 
 ![cell membrane potential during cell cycle](/img/cellcycle.png) _Anderson, 2023_[^7]
 
-In addition to this, Cone found that cancer cells have a defunct bioelectric phenotype which he hypothesized was a key contributor to driving unchecked growth.[^8] For example, myosarcomas maintained a -10 mV membrane potential compared to -90 mV in normal cells.
+In addition to this, Cone found that cancer cells have a defunct bioelectric phenotype, which he hypothesized was a key contributor to driving unchecked growth.[^8] For example, myosarcomas maintained a -10 mV membrane potential compared to -90 mV in normal cells.
 
 To what you're thinking- yes, there is already proof in the present day market that these mechanisms can be exploited to address cancer. Novocure, a public company bringing in $600M per year in revenue, is already FDA approved and applying 'Tumor Treating Fields' to glioblastoma with other applications submitted and claims of pre-clinical data in over a dozen other cancer types. 
 
@@ -116,15 +115,15 @@ Because the above-mentioned mechanisms are more prevalent in neuroscience, this 
 
 Neurostimulation stands as the most advanced field using external fields to modulate biology, alongside things like energy-based tumor ablation. FDA-approved therapies that entail applying fields with lasting effects include transcranial magnetic stimulation(TMS) for depression, OCD, smoking cessation, migraines and cranial electrotherapy(CES) for anxiety, insomnia and pain. This said, neurostimulation hits a few hard engineering walls because sub-millimeter precision is needed to be effective and fields must punch through skull and brain tissue that acts like a Faraday cage.
 
-Shifting to translating these approaches to non-neuronal cells, required precision drops to centimeter scale since targets are bigger and because there is no skull barrier, the ability to control the shape of ultrasound fields, referred to as beamforming, is simplified.
+Shifting to translating these approaches to non-neuronal cells, required precision drops to centimeter scale since targets are bigger and, because there is no skull barrier, the ability to control the shape of ultrasound fields, referred to as beamforming, is simplified.
 
-The advantage neurostimulation has is that because of the action potential mechanism, neurons are able to rectify alternating current(AC) fields into direct current. So far for non-excitable cells, the field parameters to depolarize or hyperpolarize cells remains unknown. This is where AION is stepping in to map them first.
+The advantage neurostimulation has is that, because of the action potential mechanism, neurons are able to rectify alternating current(AC) fields into direct current. So far for non-excitable cells, the field parameters to depolarize or hyperpolarize cells remains unknown. This is where AION is stepping in to map them first.
 
-The challenge is that fields face a core trade-off between how precisely we can apply certain parameters in a given area with how deeply we can penetrate the body’s tissue. A simple example for intuition’s sake is that light is able to focus parameters very precisely while having very poor depth penetration, while on the flip side, magnetic fields are able to permeate through the body very freely with the challenge of focusing desired parameters over a given area. 
+The challenge is that fields face a core trade-off between how precisely we can apply certain parameters in a given area with how deeply we can penetrate the body’s tissue. A simple example is that light is able to focus parameters very precisely while having very poor depth penetration, while on the flip side, magnetic fields are able to permeate through the body very freely with the challenge of focusing desired parameters over a given area. 
 
 This said, the fact this trade-off exists narrows in our search space dramatically. To penetrate deep tissue at a centimeter scale of precision, we can reason about the properties of fields that will overcome this challenge in order to make our exploration feasible, and not something that costs billions of dollars over decades to find. 
 
-Traditional biochemistry does not offer us much of a jumping off point for which field parameters will do what we want in tissues, however that’s where bioelectricity gives us the lens we need with the help of broader neuroscience findings which give us mechanisms of action: mechanical waves like ultrasound effect Piezo channels while electromagnetic fields trigger voltage-gated ion channels. Both of these are specialized proteins existing in the cell’s membrane that when conformationally changed, alter the concentration of ions that are able to move between the inside and the outside of the cell, affecting its charge. 
+Traditional biochemistry does not offer us much of a jumping off point for which field parameters will do what we want in tissues. That's where bioelectricity gives us the lens we need with the help of broader neuroscience findings which give us mechanisms of action: mechanical waves like ultrasound affect Piezo channels while electromagnetic fields trigger voltage-gated ion channels. Both of these are specialized proteins existing in the cell’s membrane that, when conformationally changed, alter the concentration of ions that are able to move between the inside and the outside of the cell, affecting its charge. 
 
 ![how bioelectrics are transduced](/img/upstream.png) _Anderson, 2023_[^7]
 
@@ -146,13 +145,13 @@ Damadian, in his 1971 paper proposing the MRI, stated “*My own experiments wit
 
 In 2025, it was published that T2 times, a parameter that allows the MRI to have contrast between tissues based on water dynamics, correlate with experimentally altered membrane voltage, further validating this perspective.[^17] It makes sense. All biophysical parameters are inherently linked as they are different lenses through which to view the same whole. What matters to us is what are the easiest properties to measure in real time to develop our closed loop systems for applying fields to change states while reading the changes of those states at the same time. 
 
-For full cell fate control, we need to be able to remotely change membrane potential in both the positive and negative direction. Positive depolarization is easier. Bombarding the cell with the right mechanical or electrical fields cavitates the membrane through the above mentioned mechanisms causing a leak in potassium and an influx of sodium. Mechanisms to increase the negative charge are more elusive although we’ve found promising directions in the field studying risks from radio frequencies and common electronics with some of these studies having been interventional. 
+For full cell fate control, we need to be able to remotely change membrane potential in both the positive and negative direction. Positive depolarization is easier. Bombarding the cell with the right mechanical or electrical fields cavitates the membrane through the above mentioned mechanisms, causing a leak in potassium and an influx of sodium. Mechanisms to increase the negative charge are more elusive, although we’ve found promising directions in the field studying risks from radio frequencies and common electronics with some of these studies having been interventional. 
 
-I will highlight two that we are exploring. The first is ion cyclotron resonance(ICR), first proposed by Abraham Liboff and the second is magnetoacoustics. 
+I will highlight two that we are exploring. The first is ion cyclotron resonance(ICR), first proposed by Abraham Liboff, and the second is magnetoacoustics. 
 
-ICR hypothesizes that ions resonate at specific frequencies in changing plus unchanging magnetic fields.[^18] The proposed mechanism here is the Lorentz force however this is a flawed view given that the ion orbital path is too large to explain the effects seen in biology.[^19] That said, the data holds and has been shown to robustly replicate, there are specific frequency and field strength ratios, centered around ICR frequencies, that induce ion flows in living cells that can induce hyperpolarization. 
+ICR hypothesizes that ions resonate at specific frequencies in changing plus unchanging magnetic fields.[^18] The proposed mechanism here is the Lorentz force, however this is a flawed view given that the ion orbital path is too large to explain the effects seen in biology.[^19] That said, the data holds and has been shown to robustly replicate that there are specific frequency and field strength ratios, centered around ICR frequencies, that induce ion flows in living cells that can induce hyperpolarization. 
 
-In 2019, the National-Regional Key Technology Engineering Laboratory for Medical Ultrasound in Shenzhen showed that they could hyperpolarize cells in as little as 10 minutes by coupling a magnetic field with ultrasound.[^20] The proposed model is that the acceleration of ions through the magnetic field with ultrasound induces an electric field but this lacks an explanation for how the created field affects the cell’s overall membrane potential because of the non-excitable cell’s missing action potential mechanism. It is possible that it is an artifact of the chamber design or that something more subtle than what fits into current biology models is happening at the membrane. 
+In 2019, the National-Regional Key Technology Engineering Laboratory for Medical Ultrasound in Shenzhen showed that they could hyperpolarize cells in as little as 10 minutes by coupling a magnetic field with ultrasound.[^20] The proposed model is that the acceleration of ions through the magnetic field with ultrasound induces an electric field, but this lacks an explanation for how the created field affects the cell’s overall membrane potential because of the non-excitable cell’s missing action potential mechanism. It is possible that it is an artifact of the chamber design or that something more subtle than what fits into current biology models is happening at the membrane. 
 
 Despite encouraging data, replication is difficult in bioelectromagnetics and proposed physical models are messy and often wrong. 
 
@@ -165,9 +164,9 @@ Recapping what we know:
 - Novocure applies this to slow cancer growth via fields, likely altering cancer’s membrane potential 
 - Levin shows bioelectricity can robustly control differentiation and dedifferentiation
 
-All of these are findings that if exploited via fields could be directly applied to the thymus to create massive value. 
+All of these are findings that, if exploited via fields, could be directly applied to the thymus to create massive value. 
 
-We are excited by the thymus as an indication because other than the central nervous system, it is arguable that there is no single organ that if rejuvenated would lead to longer, healthier lifespans in humans than the thymus. Everyone on the other side of maturity (20-30) starts to experience immune system decline as a product of aging-related changes in the thymus.
+We are excited by the thymus as an indication because, other than the central nervous system, it is arguable that there is no single organ that if rejuvenated would lead to longer, healthier lifespans in humans than the thymus. Everyone on the other side of maturity (20-30) starts to experience immune system decline as a product of aging-related changes in the thymus.
 
 More specifically, thymus regeneration post-chemotherapy is a tractable first market. Globally, ~20M new cancer cases occur each year, with about half receiving chemotherapy. Severe immunosuppression affects roughly a third of these patients, leaving ~3M individuals annually with no good solution beyond G-CSF regimens. At pricing comparable to G-CSF ($25K+ per course), the immediate oncology TAM is roughly $80B. Even priced more accessibly, the market remains substantial.
 
