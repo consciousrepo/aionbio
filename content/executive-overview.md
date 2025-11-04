@@ -89,8 +89,8 @@ In the same vein, because it is very hard to see all the underlying ionic moveme
 So why are we convinced that by changing the bioelectricity at all that we can achieve highly effective control of cell states? 
 
 Starting with some historical examples from Clarence Cone, who uncovered the fundamental role bioelectricity plays in the cell cycle, here are some things we already know we can do with bioelectricity:
-- Hyperpolarizing (more negative) halts division[^5] [^6]
-- Depolarizing (less negative) triggers division in mature cells[^7]
+- Hyperpolarizing (more negative) halts division (e.g. in cancer) [^5] [^6]
+- Depolarizing (less negative) triggers division in mature cells (e.g. mature neurons) [^7]
 
 ![cell membrane potential during cell cycle](/img/cellcycle.png) _Anderson, 2023_[^8]
 
@@ -114,13 +114,13 @@ For these reasons and more, we are convinced that exploiting the bioelectric int
 ## Neurostimulation Tools for Non-Neuronal Cells
 Because the above-mentioned mechanisms are more prevalent in neuroscience, this is also a space that cares a lot about solving this problem for achieving read-write control over the brain, and so here we find tools to draw inspiration from for controlling non-excitable (no quick action potential) cells.  
 
-Neurostimulation stands as the most advanced field using external fields to modulate biology, alongside things like energy-based tumor ablation. FDA-approved therapies that entail applying fields with lasting effects include transcranial magnetic stimulation(TMS) for depression, OCD, smoking cessation, migraines and cranial electrotherapy(CES) for anxiety, insomnia and pain. This said, neurostimulation hits a few hard engineering walls because sub-millimeter precision is needed to be effective and fields must punch through skull and brain tissue that acts like a Faraday cage.
+Neurostimulation stands as the most advanced field using external fields to modulate biology, alongside things like energy-based tumor ablation. FDA-approved therapies that entail applying fields with lasting effects include transcranial magnetic stimulation (TMS) for depression, OCD, smoking cessation, migraines and cranial electrotherapy (CES) for anxiety, insomnia and pain. This said, neurostimulation hits a few hard engineering walls because sub-millimeter precision is needed to be effective and fields must punch through skull and brain tissue that acts like a Faraday cage.
 
 Shifting to translating these approaches to non-neuronal cells, required precision drops to centimeter scale since targets are bigger and, because there is no skull barrier, the ability to control the shape of ultrasound fields, referred to as beamforming, is simplified.
 
-The advantage neurostimulation has is that, because of the action potential mechanism, neurons are able to rectify alternating current(AC) fields into direct current. So far for non-excitable cells, the field parameters to depolarize or hyperpolarize cells remains unknown. This is where AION is stepping in to map them first.
+The advantage neurostimulation has is that, because of the action potential mechanism, neurons are able to rectify alternating current (AC) fields into direct current. So far for non-excitable cells, the field parameters to depolarize or hyperpolarize cells remains unknown. This is where AION is stepping in to map them first.
 
-The challenge is that fields face a core trade-off between how precisely we can apply certain parameters in a given area with how deeply we can penetrate the body’s tissue. A simple example is that light is able to focus parameters very precisely while having very poor depth penetration, while on the flip side, magnetic fields are able to permeate through the body very freely with the challenge of focusing desired parameters over a given area. 
+The challenge is that fields face a core trade-off between how precisely we can apply certain parameters in a given area with how deeply we can penetrate the body’s tissue. Light is able to focus very precisely while having very poor penetration depth, while on the flip side, magnetic fields are able to permeate through the body very freely with the challenge of focusing desired parameters over a given area. 
 
 This said, the fact this trade-off exists narrows in our search space dramatically. To penetrate deep tissue at a centimeter scale of precision, we can reason about the properties of fields that will overcome this challenge in order to make our exploration feasible, and not something that costs billions of dollars over decades to find. 
 
@@ -152,7 +152,7 @@ In 2025, it was published that T2 times, a parameter that allows the MRI to have
 
 For full cell fate control, we need to be able to remotely change membrane potential in both the positive and negative direction. Positive depolarization is easier. Bombarding the cell with the right mechanical or electrical fields cavitates the membrane through the above mentioned mechanisms, causing a leak in potassium and an influx of sodium. Mechanisms to increase the negative charge are more elusive, although we’ve found promising directions in the field studying risks from radio frequencies and common electronics with some of these studies having been interventional. 
 
-We will highlight two that we are exploring. The first is ion cyclotron resonance(ICR), first proposed by Abraham Liboff, and the second is magnetoacoustics. 
+We will highlight two that we are exploring. The first is ion cyclotron resonance (ICR), first proposed by Abraham Liboff, and the second is magnetoacoustics. 
 
 ICR hypothesizes that ions resonate at specific frequencies in changing plus unchanging magnetic fields.[^19] The proposed mechanism here is the Lorentz force, however this is a flawed view given that the ion orbital path is too large to explain the effects seen in biology.[^20] That said, the data holds and has been shown to robustly replicate that there are specific frequency and field strength ratios, centered around ICR frequencies, that induce ion flows in living cells that can induce hyperpolarization. 
 
