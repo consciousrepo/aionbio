@@ -29,11 +29,19 @@ robots: "noindex, nofollow"
 
 ---
 
+## TL;DR
+- **Cell reprogramming (turning any cell back into a stem cell) could reverse aging**, but molecular approaches face impossible search spaces. Billions are spent screening cocktails, yet the combination space is larger than what can be tested in a lifetime.
+- **Even if perfect molecular cocktails existed, delivery is unsolvable.** Different tissues reprogram at different rates, so systemic delivery causes liver failure before neurons benefit
+- **Bioelectricity offers precise spatiotemporal control.** By reading and writing electrical states in deep tissue, we can target specific organs with sub-centimeter precision and dynamic timing.
+- **The thymus is our beachhead ($80B oncology market).** FDA endpoints are organ size and T-cell counts, our approach addresses the core problem (immune decline) with measurable control.
+
+## Introduction
+
 We are fundamentally changing the way people approach intervening biology. Our big-if-true is that if we're right, and that biology can be more effectively controlled with physics than via our understanding of molecular pathways, then we can use non-invasive techniques in order to bring about desired changes in our systems of interest, with systems of interest being various disease states that come about with age, and then eventually, aging itself.
 
 How do we get there? But first, how did we get here? 
 
-Like many, I was enamored by the discovery that we could reprogram cells from a somatic (differentiated) state, and convert them back into a stem cell. In 2006, Yamanaka was researching this when he discovered that by increasing the concentration of four special proteins inside the cell, now referred to as Yamanaka factors, you could turn any cell type in the body back into a stem cell.[^1] This was groundbreaking at the time, because up until this point, the only places to get stem cells were from embryos and other ethically debatable outlets. 
+Like many, we were enamored by the discovery that we could reprogram cells from a somatic (differentiated) state, and convert them back into a stem cell. In 2006, Yamanaka was researching this when he discovered that by increasing the concentration of four special proteins inside the cell, now referred to as Yamanaka factors, you could turn any cell type in the body back into a stem cell.[^1] This was groundbreaking at the time, because up until this point, the only places to get stem cells were from embryos and other ethically debatable outlets. 
 
 To those with an interest in longevity, Yamanaka’s discovery was also a proof of concept that, insofar as we define age at the level of an individual cell, that we could reverse it. We have been able to reprogram cells of various types into stem cells for nearly 20 years now. What progress have we made towards translating this for aging and what are the barriers standing in our way? 
 
@@ -48,21 +56,11 @@ So with all this investment, what has been the progress after 20 years of work? 
 
 In recent years, following a seminal Chinese study, researchers began exploring pure chemical approaches. The original group demonstrated that four sequential cocktails containing 27 total molecules could induce stem cells in culture over several weeks.[^2] This led many to double down on the idea that high throughput screening was the way, and that somewhere out there in chemical space is a protocol that will lead to an ideal, high stem cell yield reprogramming outcome, and furthermore, that there may eventually be a drug or series of drugs to be taken to reverse aging. 
 
-Billions have been spent pursuing these routes with the primary metric of success being how many tens of thousands of inputs have been screened in what period of time, indicating progress in churning through this space. 
-
-Let's do a bit of quick math. If we take the net set of possible transcription factors or chemical combinations required to achieve anything here, how big is the space?
-
-The human genome has about 1,600 transcription factors. Even for a simple cocktail of just 4 factors, the possible combinations top 272 billion. For mixes of 7 or 10, the numbers explode to around 5 × 10^18 or 3 × 10^25, way beyond what labs can test in a lifetime.
-
-Assume as an overestimation that labs screen 100,000 inputs a year. Over 20 years, that's about 2 million tests. For that basic 4-factor case, they've covered a fraction of just 0.0007%. 
-
-On the flip side, for a cocktail of just 4 chemicals, the possible combinations number over 40 sextillion. That's a 4 followed by 22 zeros. For mixes of 7 or 10, the numbers explode to levels like 10^41 or 10^53, way beyond what we can count in a lifetime. 
-
-For simplicity, assume again companies screen 100,000 compounds a year. Over 20 years, that's about 2 million tests. For that basic 4-chemical case, they've covered a fraction so tiny it's like checking one atom in the entire mass of Earth. For bigger mixes, consider the 27 chemicals used in the cocktails above, it's basically zero. Brute-force testing can't touch this huge space, no matter the billions spent. Real progress needs to be driven by a better idea. That is where we come in. 
+Billions have been spent pursuing these routes with the primary metric of success being how many tens of thousands of inputs have been screened in what period of time, indicating progress in churning through this space. If we take the net set of possible transcription factors or chemical combinations required to achieve anything here, how big is the space?  The answer is staggering large and somewhere between completely unfeasible and physically impossible.[^3]
 
 So, here we see the limits of current approaches as it pertains to problem one. What about problems two and three? These are best explained at the same time. 
 
-The most successful partial reprogramming study to date was done in 2016 by the Ocampo lab.[^3] They genetically edited mice at the embryonic stage in order to create an on-off switch in the mice that would respond to a drug called doxycycline(dox); exposure to the drug would trigger the mice to express the Yamanaka factors on command. The most successful protocol featured a 2 days on, 5 days off schedule, and this led to a 67% median lifespan extension in progeroid mice (from 18 to 30 weeks).
+The most successful partial reprogramming study to date was done in 2016 by the Ocampo lab.[^4] They genetically edited mice at the embryonic stage in order to create an on-off switch in the mice that would respond to a drug called doxycycline(dox); exposure to the drug would trigger the mice to express the Yamanaka factors on command. The most successful protocol featured a 2 days on, 5 days off schedule, and this led to a 67% median lifespan extension in progeroid mice (from 18 to 30 weeks).
 
 The problem is that this gene circuit was all or nothing for every tissue in the body, and different cell types reprogram at different rates. As far as organ systems are concerned, the liver reprograms the fastest, then the pancreas, then the kidney and so on with cells like neurons and bones reprogramming the slowest. When persistently expressing these reprogramming factors, the liver may reprogram to a point where some liver cells start to become stem cells before cells like neurons start to see benefit at all, until eventually you get liver failure. 
 
@@ -76,7 +74,9 @@ Enough talk about problems.
 
 My point in communicating this background is to make the point clear that achieving control over timing and delivery would be a paradigm-shifting breakthrough. At AION, we are 100% convinced that bioelectricity is the key to unlocking this. 
 
-When I say 'bioelectricity,' I'm referring to changes in the concentrations of ions like sodium (Na+), potassium (K+), and calcium (Ca2+). These three ions carry most of the electrical charge that determines cellular membrane potential. As these ions move in and out of cells, this changes the voltage of the cell itself in a more positively or negatively charged direction. 
+## Bioelectricity Background
+
+When we say 'bioelectricity,' I'm referring to changes in the concentrations of ions like sodium (Na+), potassium (K+), and calcium (Ca2+). These three ions carry most of the electrical charge that determines cellular membrane potential. As these ions move in and out of cells, this changes the voltage of the cell itself in a more positively or negatively charged direction. 
 
 For example, a fibroblast, a type of skin cell, has a resting or average membrane potential of ~40 millivolts(mV), but this membrane potential will shift as much as +/- 20mV over the course of minutes to hours. If you have a basic understanding of how neurons work, use this as a jumping-off point. All cells in your body work the same way that neurons do, just on much slower timescales, firing electrical signals carried via these charged ions that allow the cells to communicate and coordinate towards shared goals. 
 
@@ -89,28 +89,29 @@ In the same vein, because it is very hard to see all the underlying ionic moveme
 So why are we convinced that by changing the bioelectricity at all that we can achieve highly effective control of cell states? 
 
 Starting with some historical examples from Clarence Cone, who uncovered the fundamental role bioelectricity plays in the cell cycle, here are some things we already know we can do with bioelectricity:
-- Hyperpolarizing (more negative) halts division[^4] [^5]
-- Depolarizing (less negative) triggers division in mature cells[^6]
+- Hyperpolarizing (more negative) halts division[^5] [^6]
+- Depolarizing (less negative) triggers division in mature cells[^7]
 
-![cell membrane potential during cell cycle](/img/cellcycle.png) _Anderson, 2023_[^7]
+![cell membrane potential during cell cycle](/img/cellcycle.png) _Anderson, 2023_[^8]
 
-In addition to this, Cone found that cancer cells have a defunct bioelectric phenotype, which he hypothesized was a key contributor to driving unchecked growth.[^8] For example, myosarcomas maintained a -10 mV membrane potential compared to -90 mV in normal cells.
+In addition to this, Cone found that cancer cells have a defunct bioelectric phenotype, which he hypothesized was a key contributor to driving unchecked growth.[^9] For example, myosarcomas maintained a -10 mV membrane potential compared to -90 mV in normal cells.
 
 To what you're thinking- yes, there is already proof in the present day market that these mechanisms can be exploited to address cancer. Novocure, a public company bringing in $600M per year in revenue, is already FDA approved and applying 'Tumor Treating Fields' to glioblastoma with other applications submitted and claims of pre-clinical data in over a dozen other cancer types. 
 
 Michael Levin is the modern champion of bioelectricity research. His lab has been able to carry forward the legacy of this work to achieve some incredible results. To name just a few:
 
-- creating and reversing a melanoma[^9] [^10] 
-- growing eyes where they shouldn't be[^11]
-- regenerating limbs[^12]
-- reducing senescence[^13] 
-- creating a two-headed worm through depolarization, directly combating gene-centric dogma for where body patterning information is contained[^14] 
+- creating and reversing a melanoma[^10] [^11] 
+- growing eyes where they shouldn't be[^12]
+- regenerating limbs[^13]
+- reducing senescence[^14] 
+- creating a two-headed worm through depolarization, directly combating gene-centric dogma for where body patterning information is contained[^15] 
 
 Furthermore, Levin recently [commented on X](https://x.com/drmichaellevin/status/1979239556680683735):
 > birth defects, failure to regenerate complex organs after damage, cancer, degenerative disease, and aging are all *the same problem* at root. It is all about how living matter implements a collective intelligence to maintain a specific anatomy over time (whether regenerating from: 1 egg cell, a.k.a. embryogenesis, from a damaged tissue, or from the small-scale wear and tear of adult life), and how we can facilitate that process of renewal. Regeneration, in the broadest sense, is the answer to all of these problems. It is not going to be possible to accelerate (or prevent, for those who want to) anti-aging research without feeding (or squelching) these other aspects of medicine and basic science. If you're truly arguing against longevity research, it's not just the elderly billionaires that you're targeting, it's also the kids with cancer, the people born with damaged organs, victims of injury, those damaged by pathogens, etc. etc. It's all the same pool of suffering, with the same root cause.
 
 For these reasons and more, we are convinced that exploiting the bioelectric interface is the key to solving aging. The problem remains: how do we achieve spatio-temporal control? 
 
+## Neurostimulation Tools for Non-Neuronal Cells
 Because the above-mentioned mechanisms are more prevalent in neuroscience, this is also a space that cares a lot about solving this problem for achieving read-write control over the brain, and so here we find tools to draw inspiration from for controlling non-excitable (no quick action potential) cells.  
 
 Neurostimulation stands as the most advanced field using external fields to modulate biology, alongside things like energy-based tumor ablation. FDA-approved therapies that entail applying fields with lasting effects include transcranial magnetic stimulation(TMS) for depression, OCD, smoking cessation, migraines and cranial electrotherapy(CES) for anxiety, insomnia and pain. This said, neurostimulation hits a few hard engineering walls because sub-millimeter precision is needed to be effective and fields must punch through skull and brain tissue that acts like a Faraday cage.
@@ -125,33 +126,37 @@ This said, the fact this trade-off exists narrows in our search space dramatical
 
 Traditional biochemistry does not offer us much of a jumping off point for which field parameters will do what we want in tissues. That's where bioelectricity gives us the lens we need with the help of broader neuroscience findings which give us mechanisms of action: mechanical waves like ultrasound affect Piezo channels while electromagnetic fields trigger voltage-gated ion channels. Both of these are specialized proteins existing in the cell’s membrane that, when conformationally changed, alter the concentration of ions that are able to move between the inside and the outside of the cell, affecting its charge. 
 
-![how bioelectrics are transduced](/img/upstream.png) _Anderson, 2023_[^7]
+![how bioelectrics are transduced](/img/upstream.png) _Anderson, 2023_[^8]
 
 Levin has a [quip](https://x.com/drmichaellevin/status/1700978231808245760): swap 'neuron' for 'cell' and 'milliseconds' for 'minutes' in any neuroscience paper and you get to a developmental biology insight. Reprogramming cells mirror development in reverse, so external fields altering membrane potential should play a strong role in affecting the rates of reprogramming and differentiation. 
 
-This has already been confirmed through work that has shown to reprogram fibroblasts to stem cells by creating a temporary pore in the membrane via ultrasound.[^15] 
+This has already been confirmed through work that has shown to reprogram fibroblasts to stem cells by creating a temporary pore in the membrane via ultrasound.[^16] 
 
 So, we know that hyperpolarizing cells halts division and that depolarizing them accelerates proliferation. Our hypothesis is that instead of relying on these blunt pushes in one direction or the other, by unlocking temporal control in this pattern of change over time, we can unlock the ability to effectively control a much more complex set of tissue states in real time. 
 
 In order to do this, we need to be able to very precisely obtain this information in the body in real time so that we can steer these patterns towards desired states inside an agent controlled feedback loop. 
 
-Here we find another core challenge in bioelectricity: how do we image patterns in deep tissue? Current imaging modalities for this work don’t scale beyond cell cultures or would be highly invasive in the body. 
+Here we find another core challenge in bioelectricity: how do we image patterns in deep tissue? Current imaging modalities for this work don’t scale beyond cell cultures or would be highly invasive in the body.
+
+## MRI as a Bioelectric Mapping Device
 
 We believe this is a solved problem with MRI. From the very start, the MRI was a bioelectricity mapping device. 
 
 The MRI was originally created by Raymond Damadian to be a machine that could differentiate cancer tissue from healthy tissue based on a realization that electrical properties of the cells correlated with water dynamics. 
 
-Damadian, in his 1971 paper proposing the MRI, stated “*My own experiments with Escherichia coli (6) suggested that altered selectivity coefficients of alkali cations in biologic tissue, such as occur in neoplastic tissue (5), can indicate alterations in tissue water structure.*”[^16] Here, alkali cations are sodium and potassium, the prime charge carriers in bioelectricity mentioned above, and tissue water structure changes are observable by the proposed MRI device.
+Damadian, in his 1971 paper proposing the MRI, stated “*My own experiments with Escherichia coli (6) suggested that altered selectivity coefficients of alkali cations in biologic tissue, such as occur in neoplastic tissue (5), can indicate alterations in tissue water structure.*”[^17] Here, alkali cations are sodium and potassium, the prime charge carriers in bioelectricity mentioned above, and tissue water structure changes are observable by the proposed MRI device.
 
-In 2025, it was published that T2 times, a parameter that allows the MRI to have contrast between tissues based on water dynamics, correlate with experimentally altered membrane voltage, further validating this perspective.[^17] It makes sense. All biophysical parameters are inherently linked as they are different lenses through which to view the same whole. What matters to us is what are the easiest properties to measure in real time to develop our closed loop systems for applying fields to change states while reading the changes of those states at the same time. 
+In 2025, it was published that T2 times, a parameter that allows the MRI to have contrast between tissues based on water dynamics, correlate with experimentally altered membrane voltage, further validating this perspective.[^18] It makes sense. All biophysical parameters are inherently linked as they are different lenses through which to view the same whole. What matters to us is what are the easiest properties to measure in real time to develop our closed loop systems for applying fields to change states while reading the changes of those states at the same time. 
+
+## Bioelectromagnetics Literature
 
 For full cell fate control, we need to be able to remotely change membrane potential in both the positive and negative direction. Positive depolarization is easier. Bombarding the cell with the right mechanical or electrical fields cavitates the membrane through the above mentioned mechanisms, causing a leak in potassium and an influx of sodium. Mechanisms to increase the negative charge are more elusive, although we’ve found promising directions in the field studying risks from radio frequencies and common electronics with some of these studies having been interventional. 
 
-I will highlight two that we are exploring. The first is ion cyclotron resonance(ICR), first proposed by Abraham Liboff, and the second is magnetoacoustics. 
+We will highlight two that we are exploring. The first is ion cyclotron resonance(ICR), first proposed by Abraham Liboff, and the second is magnetoacoustics. 
 
-ICR hypothesizes that ions resonate at specific frequencies in changing plus unchanging magnetic fields.[^18] The proposed mechanism here is the Lorentz force, however this is a flawed view given that the ion orbital path is too large to explain the effects seen in biology.[^19] That said, the data holds and has been shown to robustly replicate that there are specific frequency and field strength ratios, centered around ICR frequencies, that induce ion flows in living cells that can induce hyperpolarization. 
+ICR hypothesizes that ions resonate at specific frequencies in changing plus unchanging magnetic fields.[^19] The proposed mechanism here is the Lorentz force, however this is a flawed view given that the ion orbital path is too large to explain the effects seen in biology.[^20] That said, the data holds and has been shown to robustly replicate that there are specific frequency and field strength ratios, centered around ICR frequencies, that induce ion flows in living cells that can induce hyperpolarization. 
 
-In 2019, the National-Regional Key Technology Engineering Laboratory for Medical Ultrasound in Shenzhen showed that they could hyperpolarize cells in as little as 10 minutes by coupling a magnetic field with ultrasound.[^20] The proposed model is that the acceleration of ions through the magnetic field with ultrasound induces an electric field, but this lacks an explanation for how the created field affects the cell’s overall membrane potential because of the non-excitable cell’s missing action potential mechanism. It is possible that it is an artifact of the chamber design or that something more subtle than what fits into current biology models is happening at the membrane. 
+In 2019, the National-Regional Key Technology Engineering Laboratory for Medical Ultrasound in Shenzhen showed that they could hyperpolarize cells in as little as 10 minutes by coupling a magnetic field with ultrasound.[^21] The proposed model is that the acceleration of ions through the magnetic field with ultrasound induces an electric field, but this lacks an explanation for how the created field affects the cell’s overall membrane potential because of the non-excitable cell’s missing action potential mechanism. It is possible that it is an artifact of the chamber design or that something more subtle than what fits into current biology models is happening at the membrane. 
 
 Despite encouraging data, replication is difficult in bioelectromagnetics and proposed physical models are messy and often wrong. 
 
@@ -165,6 +170,8 @@ Recapping what we know:
 - Levin shows bioelectricity can robustly control differentiation and dedifferentiation
 
 All of these are findings that, if exploited via fields, could be directly applied to the thymus to create massive value. 
+
+## Thymus as Beachhead Market
 
 We are excited by the thymus as an indication because, other than the central nervous system, it is arguable that there is no single organ that if rejuvenated would lead to longer, healthier lifespans in humans than the thymus. Everyone on the other side of maturity (20-30) starts to experience immune system decline as a product of aging-related changes in the thymus.
 
@@ -182,45 +189,50 @@ In realizing this vision, we will have crossed most of the unknown territory req
 
 _Med-Pod Concept from Elysium (2013)_
 
+---
+_Thank you Sean Thiessen, Eric Ward & Justin Mares for feedback on this write-up._
+
 ##
 
 [^1]: Takahashi K, Yamanaka S. Induction of pluripotent stem cells from mouse embryonic and adult fibroblast cultures by defined factors. Cell. 2006 Aug 25;126(4):663-76. doi: 10.1016/j.cell.2006.07.024. Epub 2006 Aug 10. PMID: 16904174.
 
 [^2]: Guan, J., Wang, G., Wang, J. et al. Chemical reprogramming of human somatic cells to pluripotent stem cells. Nature 605, 325–331 (2022). https://doi.org/10.1038/s41586-022-04593-5
 
-[^3]: Ocampo A, Reddy P, Martinez-Redondo P, Platero-Luengo A, Hatanaka F, Hishida T, Li M, Lam D, Kurita M, Beyret E, Araoka T, Vazquez-Ferrer E, Donoso D, Roman JL, Xu J, Rodriguez Esteban C, Nuñez G, Nuñez Delicado E, Campistol JM, Guillen I, Guillen P, Izpisua Belmonte JC. In Vivo Amelioration of Age-Associated Hallmarks by Partial Reprogramming. Cell. 2016 Dec 15;167(7):1719-1733.e12. doi: 10.1016/j.cell.2016.11.052. PMID: 27984723; PMCID: PMC5679279.
+[^3]: If you want to make every permutation of a 300 amino acid protein, to do that you would need more atoms than exist in the known universe. The human genome has about 1,600 transcription factor proteins of which 4 are the Yamanaka Factors. Even for a simple cocktail of just 4 factors, the possible combinations top 272 billion. For mixes of 7 or 10, the numbers explode to around 5 × 10^18 or 3 × 10^25, way beyond what labs can test in a lifetime. Assume as an overestimation that labs screen 100,000 inputs a year. Over 20 years, that's about 2 million tests. For that basic 4-factor case, they've covered a fraction of just 0.0007%. On the flip side, for a cocktail of just 4 chemicals, the possible combinations number over 40 sextillion. That's a 4 followed by 22 zeros. For mixes of 7 or 10, the numbers explode to levels like 10^41 or 10^53, way beyond what we can count in a lifetime. For simplicity, assume again companies screen 100,000 compounds a year. Over 20 years, that's about 2 million tests. For that basic 4-chemical case, they've covered a fraction so tiny it's like checking one atom in the entire mass of Earth. For bigger mixes, consider the 27 chemicals used in the cocktails above, it's basically zero. Brute-force testing can't touch this huge space, no matter the billions spent. Real progress needs to be driven by a better idea. That is where we come in.
 
-[^4]: Clarence D. Cone, Jr.; Variation of the Transmembrane Potential Level as a Basic Mechanism of Mitosis Control. Oncology 1 June 1970; 24 (6): 438–470. https://doi.org/10.1159/000224545
+[^4]: Ocampo A, Reddy P, Martinez-Redondo P, Platero-Luengo A, Hatanaka F, Hishida T, Li M, Lam D, Kurita M, Beyret E, Araoka T, Vazquez-Ferrer E, Donoso D, Roman JL, Xu J, Rodriguez Esteban C, Nuñez G, Nuñez Delicado E, Campistol JM, Guillen I, Guillen P, Izpisua Belmonte JC. In Vivo Amelioration of Age-Associated Hallmarks by Partial Reprogramming. Cell. 2016 Dec 15;167(7):1719-1733.e12. doi: 10.1016/j.cell.2016.11.052. PMID: 27984723; PMCID: PMC5679279.
 
-[^5]: Cone, C. D. (1971). Unified theory on the basic mechanism of normal mitotic control and oncogenesis. *Journal of Theoretical Biology*, 30(1), 151–181. https://doi.org/10.1016/0022-5193(71)90042-7
+[^5]: Clarence D. Cone, Jr.; Variation of the Transmembrane Potential Level as a Basic Mechanism of Mitosis Control. Oncology 1 June 1970; 24 (6): 438–470. https://doi.org/10.1159/000224545
 
-[^6]: Clarence D. Cone, Jr., Charlotte M. Cone ,Induction of Mitosis in Mature Neurons in Central Nervous System by Sustained Depolarization.Science192,155-158(1976).DOI:10.1126/science.56781
+[^6]: Cone, C. D. (1971). Unified theory on the basic mechanism of normal mitotic control and oncogenesis. *Journal of Theoretical Biology*, 30(1), 151–181. https://doi.org/10.1016/0022-5193(71)90042-7
 
-[^7]: Anderson, B. (2023). [Bioelectricity: A top-down control model to promote more effective aging interventions](https://www.thebenjam.in/bioelectricityaging.pdf). Bioelectricity, 00(00), 1-11. https://doi.org/10.1089/bioe.2023.0013
+[^7]: Clarence D. Cone, Jr., Charlotte M. Cone ,Induction of Mitosis in Mature Neurons in Central Nervous System by Sustained Depolarization.Science192,155-158(1976).DOI:10.1126/science.56781
 
-[^8]: Cone, C. D. (1971). Unified theory on the basic mechanism of normal mitotic control and oncogenesis. *Journal of Theoretical Biology*, 30(1), 151–181. https://doi.org/10.1016/0022-5193(71)90042-7
+[^8]: Anderson, B. (2023). [Bioelectricity: A top-down control model to promote more effective aging interventions](https://www.thebenjam.in/bioelectricityaging.pdf). Bioelectricity, 00(00), 1-11. https://doi.org/10.1089/bioe.2023.0013
 
-[^9]: Lobo, D., Lobikin, M. & Levin, M. Discovering novel phenotypes with automatically inferred dynamic models: a partial melanocyte conversion in Xenopus. Sci Rep 7, 41339 (2017). https://doi.org/10.1038/srep41339
+[^9]: Cone, C. D. (1971). Unified theory on the basic mechanism of normal mitotic control and oncogenesis. *Journal of Theoretical Biology*, 30(1), 151–181. https://doi.org/10.1016/0022-5193(71)90042-7
 
-[^10]: Chernet B. T., Levin M. Transmembrane voltage potential of somatic cells controls oncogene-mediated tumorigenesis at long-range. Oncotarget. 2014; 5: 3287-3306. Retrieved from https://www.oncotarget.com/article/1935/text/
+[^10]: Lobo, D., Lobikin, M. & Levin, M. Discovering novel phenotypes with automatically inferred dynamic models: a partial melanocyte conversion in Xenopus. Sci Rep 7, 41339 (2017). https://doi.org/10.1038/srep41339
 
-[^11]: Vaibhav P. Pai, Sherry Aw, Tal Shomrat, Joan M. Lemire, Michael Levin; Transmembrane voltage potential controls embryonic eye patterning in Xenopus laevis. Development 15 January 2012; 139 (2): 313–323. doi: https://doi.org/10.1242/dev.073759
+[^11]: Chernet B. T., Levin M. Transmembrane voltage potential of somatic cells controls oncogene-mediated tumorigenesis at long-range. Oncotarget. 2014; 5: 3287-3306. Retrieved from https://www.oncotarget.com/article/1935/text/
 
-[^12]: Nirosha J. Murugan et al. ,Acute multidrug delivery via a wearable bioreactor facilitates long-term limb regeneration and functional recovery in adult Xenopus laevis.Sci. Adv.8,eabj2164(2022).DOI:10.1126/sciadv.abj2164
+[^12]: Vaibhav P. Pai, Sherry Aw, Tal Shomrat, Joan M. Lemire, Michael Levin; Transmembrane voltage potential controls embryonic eye patterning in Xenopus laevis. Development 15 January 2012; 139 (2): 313–323. doi: https://doi.org/10.1242/dev.073759
 
-[^13]: Assistant: Sediqi, H., & Levin, M. (2025). Bioelectric characterization of senescing human keratinocytes. *iScience*, 28(9), 113275. https://doi.org/10.1016/j.isci.2025.113275
+[^13]: Nirosha J. Murugan et al. ,Acute multidrug delivery via a wearable bioreactor facilitates long-term limb regeneration and functional recovery in adult Xenopus laevis.Sci. Adv.8,eabj2164(2022).DOI:10.1126/sciadv.abj2164
 
-[^14]: Beane WS, Morokuma J, Adams DS, Levin M. A chemical genetics approach reveals H,K-ATPase-mediated membrane voltage is required for planarian head regeneration. Chem Biol. 2011 Jan 28;18(1):77-89. doi: 10.1016/j.chembiol.2010.11.012. PMID: 21276941; PMCID: PMC3278711.
+[^14]: Assistant: Sediqi, H., & Levin, M. (2025). Bioelectric characterization of senescing human keratinocytes. *iScience*, 28(9), 113275. https://doi.org/10.1016/j.isci.2025.113275
 
-[^15]: Lee, Y. S., Heo, H., Lee, J., Moon, S. U., Jung, W. Y., Park, Y. K., Park, M. G., Oh, S.-H., & Kim, S. (2017). An ultra-effective method of generating extramultipotent cells from human fibroblasts by ultrasound. *Biomaterials*, 143, 65–78. https://doi.org/10.1016/j.biomaterials.2017.07.033
+[^15]: Beane WS, Morokuma J, Adams DS, Levin M. A chemical genetics approach reveals H,K-ATPase-mediated membrane voltage is required for planarian head regeneration. Chem Biol. 2011 Jan 28;18(1):77-89. doi: 10.1016/j.chembiol.2010.11.012. PMID: 21276941; PMCID: PMC3278711.
 
-[^16]: Raymond Damadian ,Tumor Detection by Nuclear Magnetic Resonance.Science171,1151-1153(1971).DOI:10.1126/science.171.3976.1151
+[^16]: Lee, Y. S., Heo, H., Lee, J., Moon, S. U., Jung, W. Y., Park, Y. K., Park, M. G., Oh, S.-H., & Kim, S. (2017). An ultra-effective method of generating extramultipotent cells from human fibroblasts by ultrasound. *Biomaterials*, 143, 65–78. https://doi.org/10.1016/j.biomaterials.2017.07.033
 
-[^17]: Kyeongseon Min, Sungkwon Chung, Seung-Kyun Lee, Jongho Lee, Phan Tan Toi, Daehong Kim, Jung Seung Lee, Jang-Yeon Park (2025) Responses to membrane potential-modulating ionic solutions measured by magnetic resonance imaging of cultured cells and in vivo rat cortex eLife 13:RP101642
+[^17]: Raymond Damadian ,Tumor Detection by Nuclear Magnetic Resonance.Science171,1151-1153(1971).DOI:10.1126/science.171.3976.1151
+
+[^18]: Kyeongseon Min, Sungkwon Chung, Seung-Kyun Lee, Jongho Lee, Phan Tan Toi, Daehong Kim, Jung Seung Lee, Jang-Yeon Park (2025) Responses to membrane potential-modulating ionic solutions measured by magnetic resonance imaging of cultured cells and in vivo rat cortex eLife 13:RP101642
 https://doi.org/10.7554/eLife.101642.3
 
-[^18]: Liboff, Abraham R.. “Ion Cyclotron Resonance interactions in living systems.” (2013).
+[^19]: Liboff, Abraham R.. “Ion Cyclotron Resonance interactions in living systems.” (2013).
 
-[^19]: Binhi, V. N., & Goldman, R. J. (2000). Ion–protein dissociation predicts ‘windows’ in electric field-induced wound-cell proliferation. *Biochimica et Biophysica Acta (BBA) - General Subjects*, 1474(2), 147–156. https://doi.org/10.1016/S0304-4165(00)00002-7
+[^20]: Binhi, V. N., & Goldman, R. J. (2000). Ion–protein dissociation predicts ‘windows’ in electric field-induced wound-cell proliferation. *Biochimica et Biophysica Acta (BBA) - General Subjects*, 1474(2), 147–156. https://doi.org/10.1016/S0304-4165(00)00002-7
 
-[^20]: Hu Y, Wang Y, Chen X, Chen S. Sonomagnetic Stimulation of Live Cells: Electrophysiologic, Biochemical and Behavioral Responses. Ultrasound Med Biol. 2019 Nov;45(11):2970-2983. doi: 10.1016/j.ultrasmedbio.2019.07.009. Epub 2019 Aug 13. PMID: 31416657.
+[^21]: Hu Y, Wang Y, Chen X, Chen S. Sonomagnetic Stimulation of Live Cells: Electrophysiologic, Biochemical and Behavioral Responses. Ultrasound Med Biol. 2019 Nov;45(11):2970-2983. doi: 10.1016/j.ultrasmedbio.2019.07.009. Epub 2019 Aug 13. PMID: 31416657.
