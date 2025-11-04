@@ -78,7 +78,7 @@ My point in communicating this background is to make the point clear that achiev
 
 When we say 'bioelectricity,' we're referring to changes in the concentrations of ions like sodium (Na+), potassium (K+), and calcium (Ca2+). These three ions carry most of the electrical charge that determines cellular membrane potential. As these ions move in and out of cells, this changes the voltage of the cell itself in a more positively or negatively charged direction. 
 
-For example, a fibroblast, a type of skin cell, has a resting or average membrane potential of ~40 millivolts(mV), but this membrane potential will shift as much as +/- 20mV over the course of minutes to hours. If you have a basic understanding of how neurons work, use this as a jumping-off point. All cells in your body work the same way that neurons do, just on much slower timescales, firing electrical signals carried via these charged ions that allow the cells to communicate and coordinate towards shared goals. 
+For example, a fibroblast, a connective tissue cell, has a resting or average membrane potential of ~40 millivolts(mV), but this membrane potential will shift as much as +/- 20mV over the course of minutes to hours. If you have a basic understanding of how neurons work, use this as a jumping-off point. All cells in your body work the same way that neurons do, just on much slower timescales, firing electrical signals carried via these charged ions that allow the cells to communicate and coordinate towards shared goals. 
 
 ![skin cells and neurons calcium imaging](/img/skin-neurons.gif)
 
