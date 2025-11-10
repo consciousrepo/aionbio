@@ -190,7 +190,7 @@ In realizing this vision, we will have crossed most of the unknown territory req
 _Med-Pod Concept from Elysium (2013)_
 
 ---
-_Thank you Sean Thiessen, Eric Ward, Stephen Matic & Justin Mares for feedback on this write-up._
+_Thank you Sean Thiessen, Josh Noah, Eric Ward, Stephen Matic & Justin Mares for feedback on this write-up._
 
 ##
 
